@@ -1,31 +1,45 @@
+import { useEffect, useState } from "react";
 import User from "../User/User.js";
 
 const Users = (props) => {
-    console.log(props);
-    //   console.log(props.users);
+  const { users } = props;
 
-    const { users } = props;
+  const [usersFromStorage, setUsersFromStorage] = useState([]);
 
-    return (
-        <table border={1}>
-            <thead>
-            <tr>
-                <th>Name</th>
-                <th>Website</th>
-                <th>Address</th>
-                <th>Actions</th>
-            </tr>
-            </thead>
+  const getUsersFromStorage = () => {
+    const usersDataJSON = localStorage.getItem("users") || "[]";
+    const usersData = JSON.parse(usersDataJSON);
+    setUsersFromStorage(usersData);
+  };
 
-            {users.map((user) => {
-                return (
-                    <tr>
-                        <User user={user} />
-                    </tr>
-                );
-            })}
-        </table>
-    );
+  useEffect(() => {
+    getUsersFromStorage();
+  }, []);
+
+  return (
+    <table border={1}>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Website</th>
+          <th>Address</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+
+      {users.map((user) => {
+        return (
+          <tr>
+            <User
+              user={user}
+              usersFromStorage={usersFromStorage}
+              getUsersFromStorage={getUsersFromStorage}
+            />
+          </tr>
+        );
+      })}
+    </table>
+  );
 };
 
 export default Users;
