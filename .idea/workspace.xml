@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c6a0539-7ae7-4701-8ee2-286c6454c850" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Main/Main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/UsersTable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/styles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/usersData.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/UsersTable.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/UsersTable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/usersData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/UsersData.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +60,7 @@
       <workItem from="1688027481887" duration="200000" />
       <workItem from="1688027684980" duration="941000" />
       <workItem from="1688037317831" duration="25000" />
-      <workItem from="1688125452437" duration="5761000" />
+      <workItem from="1688125452437" duration="6578000" />
     </task>
     <servers />
   </component>

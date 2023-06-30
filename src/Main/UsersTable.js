@@ -1,4 +1,4 @@
-import usersData from "./usersData";
+import usersData from "./UsersData";
 import styles from "./styles";
 
 const UsersTable = () => {
