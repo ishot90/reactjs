@@ -5,16 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c6a0539-7ae7-4701-8ee2-286c6454c850" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/helpers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/Main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/UsersTable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/usersData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +26,6 @@
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
-    <option name="showPreview" value="true" />
   </component>
   <component name="ProjectId" id="2Rs8Rth119uDlMZgNeHCRTzdTmp" />
   <component name="ProjectViewState">
@@ -42,8 +38,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "full.screen.before.presentation.mode": "false",
-    "git-widget-placeholder": "lesson1",
-    "last_opened_file_path": "D:/react121",
+    "git-widget-placeholder": "lesson6",
+    "last_opened_file_path": "D:/reactjs",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -64,6 +60,8 @@
       <workItem from="1688027429306" duration="42000" />
       <workItem from="1688027481887" duration="200000" />
       <workItem from="1688027684980" duration="941000" />
+      <workItem from="1688037317831" duration="25000" />
+      <workItem from="1688125452437" duration="5761000" />
     </task>
     <servers />
   </component>
