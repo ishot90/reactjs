@@ -1,24 +1,33 @@
-import { useState, useEffect } from "react";
-import Users from "../Users/Users";
-import EditUser from "../EditUser/EditUser";
+
+
+import Tasks from "../Tasks/Tasks";
+import AddComment from "../AddComment/AddComment"
+import useMain from "./useMain";
+
+
 
 const Main = () => {
-  const [id, setId] = useState(null);
-  const [users, setUsers] = useState([]);
 
-  useEffect(() => {
-    let usersData = localStorage.getItem("users");
-    setUsers(JSON.parse(usersData));
-    setId(1);
-  }, []);
 
-  return (
-    <div>
-      <Users users={users} />
+    const {
+        tasks,
+        taskId,
+        setTaskId,
+        showComment,
+        setShowComment
+    } = useMain();
 
-      <EditUser id={id} users={users} />
-    </div>
-  );
-};
+
+
+    return(
+        <div>
+            {/*filtering*/}
+            <Tasks  tasks={tasks} setShowComment={setShowComment} setTaskId={setTaskId} />
+
+            {showComment && <AddComment  taskId={taskId} />}
+            {/*create*/}
+        </div>
+    )
+}
 
 export default Main;
