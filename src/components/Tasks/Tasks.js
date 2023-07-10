@@ -35,7 +35,7 @@ const {tasks,setShowComment,setTaskId} = props;
                                 <button
                                     style={styles.button}
                                     onClick={() => addComment(t.id)}
-                                >Add Comment</button>
+                                > Add Comment </button>
                                 <button style={styles.button}>Edit</button>
                                 <button style={styles.button}>Delete</button>
                                 <button style={styles.button}>DeActive</button>

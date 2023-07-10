@@ -5,19 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c6a0539-7ae7-4701-8ee2-286c6454c850" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/AddComment/addTask/addTask.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/AddComment/addTask/styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/addUserForm/addUserForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/addUserForm/styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/comment/Comment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/taskManager/taskManager.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/users/styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/users/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/helpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/useTasks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/useUsers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/Main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/UsersData.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/UsersTable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/styles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/EditUser/EditUser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Users/Users.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Users/styles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Users/useUsers.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/users.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AddComment/AddComment.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AddComment/AddComment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/Main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/useMain.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Tasks/Tasks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Tasks/Tasks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/tasks.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +31,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="lesson7" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -38,23 +49,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "full.screen.before.presentation.mode": "false",
-    "git-widget-placeholder": "lesson7-home",
-    "last_opened_file_path": "D:/reactjs",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.Issue.Navigation",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;lesson7.1&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/reactjs&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.linters.eslint&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files (x86)\\JetBrains\\WebStorm 2022.3.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\reactjs\src\components\users" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -70,6 +89,11 @@
       <workItem from="1688125452437" duration="7358000" />
       <workItem from="1688192006740" duration="827000" />
       <workItem from="1688220548940" duration="12964000" />
+      <workItem from="1688663441302" duration="1359000" />
+      <workItem from="1688747709555" duration="16863000" />
+      <workItem from="1688808201701" duration="757000" />
+      <workItem from="1688907006451" duration="1134000" />
+      <workItem from="1688987636391" duration="4993000" />
     </task>
     <servers />
   </component>
