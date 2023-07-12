@@ -6,10 +6,11 @@ import {User} from "../users/user";
 import {AddTask} from "../AddComment/addTask/addTask";
 
 
+
 export const TaskManager = () => {
 
     const { users, addUser, deleteUser,activityChange} = useUsers();
-    const { tasks, toggleTask, addComment, editTaskTitle,deleteTask } = useTasks();
+    const { tasks,  addComment, deleteTask } = useTasks();  //  toggleTask, editTaskTitle,
 
     const [selectedUserId, setSelectedUserId] = useState(null);
     const [comment, setComment] = useState('');
@@ -21,6 +22,7 @@ export const TaskManager = () => {
             comments: tasks.filter(t => t.userId === u.id)
         }
     }),[users,tasks])
+
 
     const selectedUser = useMemo(() => {
         return users.find((u) => u.id === selectedUserId)

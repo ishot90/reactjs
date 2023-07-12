@@ -8,7 +8,7 @@ export const useUsers = () => {
         if (data) {
             return JSON.parse(data)
         }
-        return [];
+        return [];  // useUsers is a custom hook, if users is not found return empty aray
     });
 
     const setUsers = (usersData) => {

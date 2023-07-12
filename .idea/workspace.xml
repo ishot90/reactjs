@@ -5,25 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c6a0539-7ae7-4701-8ee2-286c6454c850" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/AddComment/addTask/addTask.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/AddComment/addTask/styles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/addUserForm/addUserForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/addUserForm/styles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/comment/Comment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/taskManager/taskManager.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/users/styles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/users/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helpers/helpers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/useTasks.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/useUsers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/AddComment/AddComment.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AddComment/AddComment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main/Main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main/useMain.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Tasks/Tasks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Tasks/Tasks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/tasks.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AddComment/addTask/addTask.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AddComment/addTask/addTask.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/taskManager/taskManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/taskManager/taskManager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/useUsers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useUsers.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +80,10 @@
       <workItem from="1688747709555" duration="16863000" />
       <workItem from="1688808201701" duration="757000" />
       <workItem from="1688907006451" duration="1134000" />
-      <workItem from="1688987636391" duration="4993000" />
+      <workItem from="1688987636391" duration="9833000" />
+      <workItem from="1689000819935" duration="3111000" />
+      <workItem from="1689157278752" duration="5042000" />
+      <workItem from="1689169887675" duration="702000" />
     </task>
     <servers />
   </component>

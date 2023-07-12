@@ -7,11 +7,11 @@ export const AddTask = ({user,onClose,onAddTask}) => {
 
     const handleTitleChange = (event) => {
         setTitle(event.target.value);
-    }
+    };
     const handleAddTask = () => {
         onAddTask({userId:user.id,title});
         onClose();
-    }
+    };
 
 
     return(

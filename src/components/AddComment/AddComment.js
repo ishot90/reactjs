@@ -1,7 +1,7 @@
 import {useState} from "react";
 
 
-const AddComment = (props) => {
+export const AddComment = (props) => {
 
     const {taskId,tasks} = props;
 const [value,setValue] = useState("");
@@ -29,5 +29,3 @@ const [value,setValue] = useState("");
         </div>
     )
 }
-
-export default AddComment;
